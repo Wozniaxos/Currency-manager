@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+	<head>
+        
+		<title>Transactions Manager</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css"> 
+        <script src="index.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+        
+	</head>
+
+	<body>
+        
+        <div id="App">
+            <header>
+                Welcome to the transaction Manager !
+            </header>
+            <div id = "euPlnCounterFormContainer">
+                <form id="euPlnCounterForm">
+                    1 Euro = 
+                    <input type="text" placeholder="PLN" id="euPlnCounterInput"/>
+                    <input type="submit" value="set" id="euPlnCounterButton"/>   
+                </form>
+            </div>
+            <div id = "transactionsListContainer">
+            </div>
+            <div id="transactionsManagerFormContainer">
+                <form id="transactionsManagerForm">
+                    <input type="text" placeholder="Transaction name" id="transactionNameInput"/>
+                    <input type="text" placeholder="EU amount" id="transactionAmountInput"/>
+                    <input type="submit" value="add" id="addTransactionButton"/>
+                    <input type="submit" value="delete" id="deleteTransactionButton"/>
+                </form>
+            </div>
+        </div>
+
+	</body>
+</html>
